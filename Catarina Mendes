@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Catarina Mendes White | Games Support Portfolio</title>
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--ink:#1c2433;--mute:#5b6678;--acc:#1f3a5f;--acc2:#3b6fb6;--line:#dfe3ec;--chip:#e8eef8;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1420;--card:#171e2e;--ink:#e8ecf4;--mute:#9aa6bb;--acc:#8fb4ee;--acc2:#6f9de0;--line:#2a3348;--chip:#20293d}}
+:root[data-theme="dark"]{--bg:#0f1420;--card:#171e2e;--ink:#e8ecf4;--mute:#9aa6bb;--acc:#8fb4ee;--acc2:#6f9de0;--line:#2a3348;--chip:#20293d}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.55}
+.wrap{max-width:860px;margin:0 auto;padding:32px 20px 56px}
+h1{font-size:2rem;margin:0 0 4px;color:var(--acc)}
+h2{font-size:1.15rem;text-transform:uppercase;letter-spacing:.06em;color:var(--acc);border-bottom:2px solid var(--acc);padding-bottom:6px;margin:40px 0 16px}
+h3{margin:0 0 8px;font-size:1.05rem}
+.sub{color:var(--mute);margin:0 0 14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 0}
+.chip{background:var(--chip);color:var(--ink);border-radius:999px;padding:3px 11px;font-size:.82rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin-bottom:14px}
+.card p{margin:0 0 8px}
+.tag{display:inline-block;font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;background:var(--acc);color:var(--bg);border-radius:4px;padding:2px 7px;margin-bottom:8px}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:480px;font-size:.92rem}
+td,th{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{width:150px;color:var(--mute);font-weight:600}
+.bar{display:flex;align-items:center;gap:10px;margin:7px 0;font-size:.9rem}
+.bar span:first-child{width:150px;flex:none}
+.bar i{display:block;height:14px;border-radius:4px;background:var(--acc2)}
+.bar b{font-weight:600;color:var(--mute);font-size:.82rem}
+ul{margin:6px 0 0;padding-left:20px}
+.note{font-size:.85rem;color:var(--mute);border-left:3px solid var(--acc2);padding-left:12px;margin-top:36px}
+a{color:var(--acc)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Catarina Mendes White</h1>
+<p class="sub">Senior Escalations Specialist · Games Support · Maesteg, Wales</p>
+<p>Five years in games support, from frontline agent to Tier 2 / Tier 3 escalations and Game Owner for multiple live titles. I investigate technical problems, work with developers during live incidents, and turn player feedback into clear reporting. <a href="mailto:catarina25@hotmail.co.uk">catarina25@hotmail.co.uk</a></p>
+<div class="chips"><span class="chip">Zendesk</span><span class="chip">Helpshift</span><span class="chip">Jira</span><span class="chip">Bug reporting</span><span class="chip">Live incident support</span><span class="chip">Trend analysis</span><span class="chip">QA 98%+</span><span class="chip">English / Portuguese</span></div>
+
+<h2>What I do</h2>
+<div class="grid">
+<div class="card"><h3>Escalations</h3><p>Owning complex, high-priority and sensitive player cases from first contact to resolution.</p></div>
+<div class="card"><h3>Live incidents</h3><p>Sharing case evidence and player impact with developers, and tracking crashes after updates.</p></div>
+<div class="card"><h3>Insight</h3><p>Weekly reports on repeat issues, sentiment and contact-volume trends for development teams.</p></div>
+</div>
+
+<h2>Games I own</h2>
+<p>As Game Owner I keep support information accurate and up to date for these live titles.</p>
+<div class="chips"><span class="chip">Hungry Shark World</span><span class="chip">Hungry Shark Evolution</span><span class="chip">Invincible: Guarding the Globe</span><span class="chip">Assassin’s Creed</span><span class="chip">Rainbow Six Mobile</span><span class="chip">The Division Resurgence</span><span class="chip">Might &amp; Magic Fates</span><span class="chip">Might &amp; Magic: Era of Chaos</span><span class="chip">Is It Love?</span><span class="chip">South Park: Phone Destroyer</span></div>
+
+<h2>Work samples</h2>
+
+<div class="card">
+<span class="tag">Sample 1</span>
+<h3>Bug report: crash on loading screen after patch</h3>
+<div class="scroll"><table>
+<tr><th>Game</th><td>Starfall Online (fictional)</td></tr>
+<tr><th>Severity</th><td>High: affects access, reported by many players since patch 2.4.1</td></tr>
+<tr><th>Platforms</th><td>PC (launcher v5.1), Windows 11. Not reproduced on console.</td></tr>
+<tr><th>Summary</th><td>Game crashes to desktop at 80% on the loading screen when starting a saved campaign.</td></tr>
+<tr><th>Steps to reproduce</th><td>1. Launch game and sign in. 2. Select Continue Campaign. 3. Wait for the loading bar to reach 80%. Game closes with no error message.</td></tr>
+<tr><th>Expected / actual</th><td>Campaign loads to the hub / crash to desktop every time.</td></tr>
+<tr><th>Evidence</th><td>12 crash logs, 9 screenshots, device specs. Reinstall and file verification did not help.</td></tr>
+<tr><th>Workaround</th><td>Starting a new campaign works. Disabling cloud saves lets 6 of 8 tested players load.</td></tr>
+<tr><th>Player impact</th><td>140 tickets in 48 hours, roughly 3x the normal volume for this category.</td></tr>
+</table></div>
+</div>
+
+<div class="card">
+<span class="tag">Sample 2</span>
+<h3>Weekly insights update (example data)</h3>
+<p class="sub">Week 14 · Starfall Online · Prepared for the live team</p>
+<div class="bar"><span>Loading crash (2.4.1)</span><i style="width:60%"></i><b>140</b></div>
+<div class="bar"><span>Missing DLC content</span><i style="width:28%"></i><b>66</b></div>
+<div class="bar"><span>Login errors</span><i style="width:18%"></i><b>42</b></div>
+<div class="bar"><span>Ban appeals</span><i style="width:12%"></i><b>28</b></div>
+<div class="bar"><span>Billing and refunds</span><i style="width:10%"></i><b>23</b></div>
+<ul>
+<li>Contact volume up 31% week on week, driven almost entirely by the post-patch loading crash.</li>
+<li>Sentiment fell on social channels after the patch, with players asking for a status update.</li>
+<li>Recommend: a known-issue notice with the workaround, and a fix-ETA update before the weekend.</li>
+</ul>
+</div>
+
+<div class="card">
+<span class="tag">Sample 3</span>
+<h3>Case study: spotting a repeat issue early</h3>
+<p><b>Problem.</b> After a content update, a small number of cases described missing items that did not match any known issue.</p>
+<p><b>Investigation.</b> I grouped cases by platform, account region and purchase date, and found they all shared one store region and one purchase window.</p>
+<p><b>Action.</b> I escalated with a pattern summary and evidence, so developers could go straight to the likely cause, and wrote a macro so agents handled affected players the same way.</p>
+<p><b>Result.</b> The cause was confirmed quickly, affected players were restored, and repeat contacts dropped. (Fictional example for illustration.)</p>
+</div>
+
+<div class="card">
+<span class="tag">Sample 4</span>
+<h3>Knowledge-base article: "Game crashes when loading a save"</h3>
+<p>Before you start: check that your game and launcher are up to date.</p>
+<ul>
+<li>Verify your game files through your launcher.</li>
+<li>Update your graphics drivers and restart your PC.</li>
+<li>Temporarily turn off cloud saves and try again.</li>
+<li>Still crashing? Contact us with your crash log, your device specs and the time it happened, and we will pass it to the team.</li>
+</ul>
+</div>
+
+<p class="note">All samples use fictional games and made-up data. They show the format and approach of my work and contain no real player information or internal company material.</p>
+</div>
+</body>
+</html>
